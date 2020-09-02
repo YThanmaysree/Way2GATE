@@ -1,0 +1,211 @@
+.SUB1{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			/*It can be used only for div*/
+			justify-content: space-around;
+		}
+.imagecontainer{
+	        display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			/*It can be used only for div*/
+			justify-content: space-around;
+}
+.SUB1{
+	border:1px solid black;
+	height: 200px;
+}
+.imagecontainer img{
+	width: 33%;
+}
+.imagecontainer img:hover{
+			transition: all 10s ease;
+			opacity: 1%;
+		}
+.navigationcontainer
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+			/*It can be used only for div*/
+	justify-content: space-around;
+	background-color:#008080;
+	padding: 1%;
+}
+.navigationcontainer button:hover{
+	background-color: rgb(236, 101, 98);
+	color: yellow;
+}
+.container
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+			/*It can be used only for div*/
+	justify-content: space-around;
+}
+.subcont{
+	border:1px solid ;
+	width: 20%;
+	padding: 2%;
+	color: white;
+	border-radius: 10px;
+}
+.Others{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: black;
+}
+.Than{
+	color: white;
+	justify-content: space-around;
+	margin-left: 12%;
+	padding: 1%;
+}
+.Than i{
+	color: yellow;
+}
+.VideoAudio img{
+	width: 60%;
+	height: 500px;
+}
+.VideoAudio img:hover{
+			transition: all 10s ease;
+			opacity: 1%;
+			}
+.About{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+			/*It can be used only for div*/
+	justify-content: space-around;
+}
+.About img{
+	width: 50%;
+}
+.sub{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+			/*It can be used only for div*/
+	justify-content: space-around;
+	text-align: right;
+	padding-right: 1%;
+}
+.sub i{
+	color: yellow;
+}
+body{
+	background-color: black;
+	background: url("https://i.pinimg.com/originals/8b/f2/80/8bf28057d460748ea5ff540cd18806aa.jpg")no-repeat center center fixed;
+	background-size: cover;
+	-ms-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+}
+.formcontainer{
+	width: 30%;
+	background-color: grey;
+	padding: 2%;
+	margin: 5% 5% 5% 35%;
+	/*To get the box shadow horizontal,vertical,blurradius,spreadradius ,colour*/
+	/*box-shadow: 3px 3px 5px 6px cyan;*/
+}
+.inputfieldcontainer{
+	background-color:white;
+	border-radius: 30px;
+	padding: 1%;
+	padding-left: 2%;
+	margin-top: 1%;
+	height: 30%;
+}
+.inputfieldcontainer input{
+	border:none;
+	width: 50%;
+}
+.inputfieldcontainer input:focus{
+	outline:none;
+}
+.inputfieldcontainer i{
+	color:rgb(236, 101, 98);
+}
+.aggregatecontainer span{
+	color:white;
+}
+.aggregatecontainer span a{
+	color:green;
+}
+.actioncontainer input{
+	border-radius: 10px;
+	color: white;
+	padding:3%;
+	width:220px;
+	background-color: rgb(236, 101, 98);
+	border:none;
+}
+.actioncontainer{
+	margin-top: 3%;
+	text-align: right;
+}
+.actioncontainer input:hover{
+	background-color:yellow;
+	color:black;
+	cursor: pointer;
+}
+footer{
+	background-color: black;
+	color: white;
+}
+@media only screen and (min-height: 320px) and (max-width: 767px){
+	body{
+		background-color: #008080;
+	}
+	.MainContainer{
+		flex-direction: column;
+	}
+	.MainContainer div{
+		width: 100%;
+	}
+	.SUB1 img{
+		width: 12%;
+	}
+	.About img{
+		width: 100%;
+	}
+	.imagecontainer img{
+		width: 100%;
+	}
+	.VideoAudio img,video{
+		width: 99%;
+		padding: 1%;
+	}
+	.formcontainer{
+		width: 60%;
+		margin-right: 30%;
+	}
+	.FOOTER footer:sub{
+		margin-right: 10%;
+	}
+	.subcont{
+		margin-bottom: 5%;
+	}
+	.actioncontainer{
+		padding-right: 5%;
+	}
+}
+/*Tablet mode*/
+/*desktop/laptop:width>=1024px*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	body{
+		background-color: black;
+	}
+	.SUB1 img{
+		width: 30%;
+	}
+	.About img{
+		width: 100%;
+	}
+}
